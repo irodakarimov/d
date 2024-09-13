@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    width: 1300px;
+    height: 800px;
+    background: rgba(243, 215, 183, 1);
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    height: 70px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 64px;
+    color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 50px 0 50px;
+}
+
+.icon {
+    position: relative;
+    bottom: 500px;
+    left: 150px;
+}
+
+.amg {
+    margin-left: 250px;
+}
+
+h2 {
+    color: black;
+    font-size: 48px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 0 50px;
+}
+
+.section-content {
+    width: 1300px;
+    height: 510px;
+    background: rgba(201, 155, 103, 1);
+    margin-top: 100px;
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.cofee img {
+    width: 480px;
+    position: relative;
+    bottom: 120px;
+}
+
+.tex {
+    margin-top: 120px;
+}
+
+.footer {
+    width: 1300px;
+    height: 160px;
+    background: rgba(243, 215, 183, 1);
+    margin: 0 auto;
+}
+
+.f-img {
+    margin-top: 80px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+    gap: 30px;
+    font-weight: 700;
+}
+
+
+.d-icon {
+    margin-left: 1200px;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+}
